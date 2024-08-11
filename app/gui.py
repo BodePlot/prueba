@@ -1,9 +1,9 @@
 import FreeSimpleGUI as sg
-
+from other import ALGO
 
 # Define the layout of the window
-layout = [
-    [sg.Text("Enter your name:")],
+layout = [ 
+    [sg.Text("Enter your name:" + ALGO)],
     [sg.InputText(key='-NAME-')],
     [sg.Button('Submit'), sg.Button('Cancel')]
 ]
